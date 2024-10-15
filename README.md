@@ -105,3 +105,64 @@ Feel free to fork this repository and submit pull requests with improvements or 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+# PRODIGY_CS_03: Password Strength Assessment Tool
+
+## Project Overview
+
+This tool assesses the strength of a password based on several criteria such as length, the presence of uppercase and lowercase letters, numbers, and special characters. It provides feedback to users on the strength of their password, categorizing it as **Weak**, **Moderate**, or **Strong**.
+
+This is the **PRODIGY_CS_03** task from my internship at ProdigyInfotech, where I am learning about cybersecurity and hands-on coding.
+
+## Features
+
+- **Password Length Check:** Validates that the password is at least 8 characters long.
+- **Character Variety:** Checks for the presence of uppercase letters, lowercase letters, numbers, and special characters.
+- **Password Strength Classification:**
+  - **Weak**: If the password has fewer than 8 characters or lacks variety.
+  - **Moderate**: If the password has a combination of letters and numbers.
+  - **Strong**: If the password meets all the criteria with a good balance of characters.
+
+## Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ginikatheboy/PRODIGY_CS_TASKS.git
+   ```
+
+2. **Navigate to the project folder**:
+   ```bash
+   cd PRODIGY_CS_TASKS/PRODIGY_CS_03
+   ```
+
+3. **Run the Python script**:
+   ```bash
+   python password_strength_checker.py
+   ```
+
+4. **Input your password** when prompted to see its strength evaluation.
+
+## Code Explanation
+
+The Python script evaluates a password based on:
+- **Length**: Ensures the password has at least 8 characters.
+- **Uppercase and Lowercase Letters**: Checks if the password includes both upper and lower case letters.
+- **Numbers**: Validates the presence of at least one number.
+- **Special Characters**: Looks for any non-alphanumeric characters.
+
+The tool then provides feedback depending on how many of these criteria are met.
+
+## Example
+
+```bash
+Enter a password: Password123!
+Your password is strong.
+```
+
+## Future Improvements
+
+- Adding suggestions for improving weak passwords.
+- Implementing a graphical user interface (GUI) for better usability.
