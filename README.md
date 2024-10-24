@@ -166,3 +166,71 @@ Your password is strong.
 
 - Adding suggestions for improving weak passwords.
 - Implementing a graphical user interface (GUI) for better usability.
+
+
+
+
+
+# PRODIGY_CS_04: Simple Keylogger
+
+This project is a simple keylogger built using Python and the `pynput` library. The keylogger records each keystroke made by the user and saves them to a log file (`keyfile.txt`). It is created as part of an internship task with **Prodigy Infotech**.
+
+> **Note:** This project is for educational purposes only. Ethical considerations and permissions are crucial when working on keyloggers or similar programs.
+
+## Features
+
+- Logs all key presses (including special keys like `Enter`, `Space`, and `Shift`).
+- Saves the keystrokes to a log file (`keyfile.txt`) in the same directory.
+- Designed to run in the background and capture keystrokes without interfering with other programs.
+
+## Getting Started
+
+### Prerequisites
+
+Before running the keylogger, ensure that you have Python installed on your system. You also need to install the `pynput` library.
+
+To install `pynput`, run the following command:
+
+```bash
+pip install pynput
+```
+
+### Running the Keylogger
+
+1. Clone this repository to your local machine or download the code.
+   
+2. Run the script using Python:
+
+```bash
+python keylogger.py
+```
+
+3. The keylogger will run in the background, and every keystroke will be logged in the `keyfile.txt` file.
+
+### Example Log Output
+
+When typing on the keyboard, the log file will record regular and special keys as follows:
+
+```
+a
+b
+c
+<Key.space>
+<Key.enter>
+1
+2
+3
+```
+
+## Ethical Considerations
+
+Keyloggers can potentially be used to capture sensitive information such as passwords or private communications. It is important to only use this tool in a legal and ethical manner. Ensure you have the necessary permissions to log keystrokes on any system where you use this tool.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **Prodigy Infotech** for the internship opportunity and task.
+- **pynput** library for providing easy control of input devices in Python.
