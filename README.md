@@ -140,7 +140,7 @@ This is the **PRODIGY_CS_03** task from my internship at ProdigyInfotech, where 
 
 3. **Run the Python script**:
    ```bash
-   python password_strength_checker.py
+   python Task03.py
    ```
 
 4. **Input your password** when prompted to see its strength evaluation.
@@ -202,7 +202,7 @@ pip install pynput
 2. Run the script using Python:
 
 ```bash
-python keylogger.py
+Task04.py
 ```
 
 3. The keylogger will run in the background, and every keystroke will be logged in the `keyfile.txt` file.
@@ -234,3 +234,62 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Prodigy Infotech** for the internship opportunity and task.
 - **pynput** library for providing easy control of input devices in Python.
+
+
+
+
+
+# Network Packet Sniffer
+
+## Overview
+This project is a simple network packet sniffer developed using Python. The tool captures and analyzes packets flowing through the network, displaying essential information such as source and destination IP addresses, protocols, and payload data. It is designed for educational purposes and emphasizes ethical use.
+
+## Features
+- Captures live network packets
+- Displays packet details, including:
+  - Source IP Address
+  - Destination IP Address
+  - Protocol (e.g., TCP, UDP)
+  - Payload data
+- User-friendly interface for viewing captured data
+
+## Prerequisites
+Before running the packet sniffer, ensure you have the following installed:
+- Python 3.x
+- [Npcap](https://nmap.org/npcap/): A packet capture library for Windows
+
+## Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ginikatheboy/PRODIGY_CS_TASKS.git
+   cd PRODIGY_CS_TASKS/PRODIGY_CS_05
+   ```
+
+2. **Install required libraries:**
+   ```bash
+   pip install scapy
+   ```
+
+3. **Install Npcap:**
+   - Download and install Npcap from the official website. Make sure to select the option to install Npcap in "WinPcap API-compatible Mode."
+
+## Usage
+1. Run the packet sniffer with administrative privileges:
+   ```bash
+   python Task05.py
+   ```
+
+2. The tool will start capturing packets and display relevant information in real-time.
+
+## Troubleshooting
+- If you experience issues with packet capturing, ensure Npcap is correctly installed and running. Rebooting the system may help resolve any conflicts.
+
+## Contributing
+Feel free to fork this repository, make changes, and submit a pull request. Contributions to improve the functionality and performance of the packet sniffer are welcome!
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- Special thanks to the developers of Scapy for providing an excellent library for packet manipulation and analysis.
+- Thank you to ProdigyInfotech for the opportunity to work on this project.
