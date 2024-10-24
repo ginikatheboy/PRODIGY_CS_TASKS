@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 
-# Network Packet Sniffer
+# PRODIGY_CS_05: Network Packet Sniffer
 
 ## Overview
 This project is a simple network packet sniffer developed using Python. The tool captures and analyzes packets flowing through the network, displaying essential information such as source and destination IP addresses, protocols, and payload data. It is designed for educational purposes and emphasizes ethical use.
